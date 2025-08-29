@@ -247,7 +247,7 @@ function createChartLayout(data) {
         },
         plot_bgcolor: '#ffffff',
         paper_bgcolor: '#ffffff',
-        hovermode: 'x unified',
+        hovermode: 'closest',
         hoverlabel: {
             bgcolor: '#1a202c',
             bordercolor: '#4a5568',
