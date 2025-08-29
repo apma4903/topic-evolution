@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Topic Evolution Analysis (2016-2024)</title>
+    <meta name="description" content="Interactive visualization showing the evolution of 189 academic topics across 9 years, revealing trends in machine learning, finance, climate science, and more.">
+    <meta name="author" content="Chris H. Wiggins">
+    <meta name="keywords" content="data visualization, academic trends, topic analysis, machine learning, education">
+    
+    <!-- External dependencies -->
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    
+    <!-- Local stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main application container -->
+    <div class="app-container">
+        
+        <!-- Header section with title and metadata -->
+        <header class="header">
+            <h1 class="main-title">Academic Topic Evolution Analysis</h1>
+            <p class="subtitle">
+                Tracking the evolution of 189 academic topics across 9 years (2016-2024)
+            </p>
+            <p class="methodology">
+                Using maximum-overlap keyword classification with comprehensive coverage
+            </p>
+        </header>
+        
+        <!-- Key statistics dashboard -->
+        <section class="statistics-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <h3 class="stat-title">Total Topics</h3>
+                    <span class="stat-value">189</span>
+                    <p class="stat-description">Academic projects analyzed</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🗂️</div>
+                    <h3 class="stat-title">Categories</h3>
+                    <span class="stat-value">10</span>
+                    <p class="stat-description">Distinct topic areas</p>
+                </div>
+                <div class="stat-card success">
+                    <div class="stat-icon">✅</div>
+                    <h3 class="stat-title">Classification</h3>
+                    <span class="stat-value">100%</span>
+                    <p class="stat-description">Successfully classified</p>
+                </div>
+                <div class="stat-card highlight">
+                    <div class="stat-icon">🤖</div>
+                    <h3 class="stat-title">2024 ML/AI</h3>
+                    <span class="stat-value">6</span>
+                    <p class="stat-description">Topics in latest year</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Main visualization container -->
+        <section class="visualization-section">
+            <h2 class="section-title">Topic Intensity Over Time</h2>
+            <div class="chart-container">
+                <div id="evolution-chart" class="chart-element"></div>
+            </div>
+            <div class="chart-controls">
+                <p class="chart-note">
+                    💡 Hover over data points for details, use legend to toggle categories
+                </p>
+            </div>
+        </section>
+        
+        <!-- Key insights and findings -->
+        <section class="insights-section">
+            <h2 class="section-title">Key Findings</h2>
+            <div class="insights-grid">
+                
+                <article class="insight-card ml-card">
+                    <div class="insight-header">
+                        <span class="insight-icon">🤖</span>
+                        <h3>Machine Learning & AI</h3>
+                    </div>
+                    <div class="insight-content">
+                        <div class="metric">48 total topics</div>
+                        <p class="insight-description">
+                            Dominant field showing consistent growth with emergence of 
+                            large language models and advanced neural architectures in 2024.
+                        </p>
+                        <div class="trend-indicator">
+                            <span class="trend-arrow">📈</span>
+                            <span class="trend-text">2016: 4 → 2024: 6 topics</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="insight-card finance-card">
+                    <div class="insight-header">
+                        <span class="insight-icon">💰</span>
+                        <h3>Finance & Economics</h3>
+                    </div>
+                    <div class="insight-content">
+                        <div class="metric">31 total topics</div>
+                        <p class="insight-description">
+                            Steady presence with notable cryptocurrency emergence in 2017 
+                            and continued focus on algorithmic trading and portfolio optimization.
+                        </p>
+                        <div class="trend-indicator">
+                            <span class="trend-arrow">📊</span>
+                            <span class="trend-text">2016: 2 → 2024: 3 topics</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="insight-card social-card">
+                    <div class="insight-header">
+                        <span class="insight-icon">🏙️</span>
+                        <h3>Social & Urban Studies</h3>
+                    </div>
+                    <div class="insight-content">
+                        <div class="metric">19 total topics</div>
+                        <p class="insight-description">
+                            Massive spike in 2019 due to Census 2020 preparation, 
+                            demonstrating impact of major societal events on research focus.
+                        </p>
+                        <div class="trend-indicator">
+                            <span class="trend-arrow">🏛️</span>
+                            <span class="trend-text">2019 peak: 7 topics (30% of year)</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="insight-card climate-card">
+                    <div class="insight-header">
+                        <span class="insight-icon">🌍</span>
+                        <h3>Climate & Weather</h3>
+                    </div>
+                    <div class="insight-content">
+                        <div class="metric">16 total topics</div>
+                        <p class="insight-description">
+                            Growing urgency reflected in research trends, with peak activity 
+                            in 2023 focusing on climate migration and adaptation strategies.
+                        </p>
+                        <div class="trend-indicator">
+                            <span class="trend-arrow">🌡️</span>
+                            <span class="trend-text">2023 peak: 5 topics (24% of year)</span>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+        
+        <!-- Methodology explanation -->
+        <section class="methodology-section">
+            <h2 class="section-title">Methodology</h2>
+            <div class="methodology-content">
+                <div class="methodology-card">
+                    <h4>Data Source</h4>
+                    <p>189 academic project topics from a graduate-level course spanning 2016-2024</p>
+                </div>
+                <div class="methodology-card">
+                    <h4>Classification System</h4>
+                    <p>Maximum-overlap keyword matching across 10 comprehensive categories</p>
+                </div>
+                <div class="methodology-card">
+                    <h4>Quality Assurance</h4>
+                    <p>100% classification rate with iterative keyword refinement and validation</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer with attribution -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-text">
+                    Academic Topic Evolution Analysis | 
+                    <a href="https://github.com/chrishwiggins/topic-evolution" class="footer-link">View Source</a>
+                </p>
+                <p class="footer-meta">
+                    Interactive visualization built with D3.js and modern web technologies
+                </p>
+            </div>
+        </footer>
+        
+    </div>
+    
+    <!-- Application JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

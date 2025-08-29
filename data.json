@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Academic Topic Evolution Analysis",
+    "description": "Analysis of 189 academic project topics across 9 years (2016-2024)",
+    "total_topics": 189,
+    "total_years": 9,
+    "classification_method": "Maximum overlap keyword matching",
+    "categories_count": 8
+  },
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "categories": {
+    "Machine Learning/AI": [
+      4,
+      5,
+      10,
+      4,
+      4,
+      4,
+      8,
+      3,
+      6
+    ],
+    "Finance/Economics": [
+      2,
+      5,
+      5,
+      4,
+      3,
+      4,
+      3,
+      2,
+      3
+    ],
+    "Mathematics/Theory": [
+      3,
+      2,
+      2,
+      2,
+      1,
+      4,
+      3,
+      1,
+      1
+    ],
+    "Social/Urban": [
+      2,
+      2,
+      0,
+      7,
+      1,
+      2,
+      2,
+      0,
+      3
+    ],
+    "Sports/Gaming": [
+      2,
+      1,
+      0,
+      4,
+      2,
+      2,
+      1,
+      2,
+      3
+    ],
+    "Climate/Weather": [
+      0,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      5,
+      0
+    ],
+    "Health/Medicine": [
+      4,
+      1,
+      1,
+      1,
+      4,
+      0,
+      1,
+      2,
+      2
+    ],
+    "Physics/Quantum": [
+      1,
+      0,
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      3
+    ]
+  }
+}
