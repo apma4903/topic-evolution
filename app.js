@@ -68,7 +68,7 @@ function showLoadingState() {
                 <div style="text-align: center;">
                     <div style="font-size: 2rem; margin-bottom: 1rem;">📊</div>
                     <div style="font-size: 1.1rem; font-weight: 600;">Loading visualization...</div>
-                    <div style="font-size: 0.9rem; margin-top: 0.5rem;">Preparing 189 topics across 9 years</div>
+                    <div style="font-size: 0.9rem; margin-top: 0.5rem;">Preparing 248 topics across 12 years</div>
                 </div>
             </div>
         `;
@@ -210,7 +210,7 @@ function createChartTraces(data) {
 function createChartLayout(data) {
     return {
         title: {
-            text: 'Academic Topic Evolution (2016-2024)',
+            text: 'Academic Topic Evolution (2013-2024)',
             font: { 
                 family: '-apple-system, BlinkMacSystemFont, sans-serif',
                 size: 20,

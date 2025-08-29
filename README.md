@@ -1,6 +1,6 @@
 # Academic Topic Evolution Analysis
 
-An interactive visualization analyzing 189 academic project topics across 9 years (2016-2024), revealing trends in machine learning, finance, climate science, and other research areas.
+An interactive visualization analyzing 189 academic project topics across 12 years (2013-2024), revealing trends in machine learning, finance, climate science, and other research areas.
 
 ## 🎯 Overview
 
@@ -31,7 +31,7 @@ This project analyzes academic research topics from a graduate-level course, tra
 ## 🔬 Methodology
 
 ### Data Source
-189 academic project topics from a graduate course spanning 2016-2024, representing student-selected research areas in applied mathematics and computational science.
+189 academic project topics from a graduate course spanning 2013-2024, representing student-selected research areas in applied mathematics and computational science.
 
 ### Classification System
 
@@ -142,7 +142,7 @@ MIT License - see LICENSE file for details
 
 ## 🙏 Acknowledgments
 
-Data source: Academic course project topics (2016-2024)
+Data source: Academic course project topics (2013-2024)
 Visualization: Built with Plotly.js and modern web technologies and GenAI code tools
 
 ---

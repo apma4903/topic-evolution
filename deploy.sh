@@ -47,7 +47,7 @@ echo "  ✅ All files staged"
 echo "💾 Creating commit..."
 git commit -m "feat: Academic Topic Evolution Analysis
 
-- Interactive visualization of 189 topics across 9 years
+- Interactive visualization of 248 topics across 12 years
 - 100% classification rate with maximum-overlap algorithm  
 - Responsive design with modern UI/UX
 - Comprehensive error handling and accessibility
@@ -104,7 +104,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "⏰ Note: GitHub Pages may take 5-10 minutes to build and deploy."
     echo ""
     echo "📊 Project Summary:"
-    echo "  • 189 academic topics analyzed (2016-2024)"
+    echo "  • 248 academic topics analyzed (2013-2024)"
     echo "  • 10 research categories identified"
     echo "  • 100% classification success rate"
     echo "  • Professional visualization with modern UI"
