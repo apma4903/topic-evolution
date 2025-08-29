@@ -1,14 +1,9 @@
 # 🚀 GitHub Deployment Instructions
 
-## Quick Deployment (5 minutes)
+## Quick Deployment (2 minutes)
 
-### Step 1: Create GitHub Repository
-1. Go to [github.com/chrishwiggins](https://github.com/chrishwiggins)
-2. Click **"New"** button (green button)
-3. Repository name: `topic-evolution`
-4. Make it **Public**
-5. **DO NOT** check "Add a README file" (we have one)
-6. Click **"Create repository"**
+### Step 1: Repository Ready ✅
+Repository already exists at: **https://github.com/apma4903/topic-evolution**
 
 ### Step 2: Deploy Code
 ```bash
@@ -23,7 +18,7 @@ The script will:
 - Provide GitHub Pages setup instructions
 
 ### Step 3: Enable GitHub Pages
-1. Go to your new repository: `https://github.com/chrishwiggins/topic-evolution`
+1. Go to your new repository: `https://github.com/apma4903/topic-evolution`
 2. Click **"Settings"** tab
 3. Scroll down to **"Pages"** section
 4. Under **"Source"**, select **"Deploy from a branch"**
@@ -32,7 +27,7 @@ The script will:
 
 ### Step 4: Access Your Site
 Your visualization will be live at:
-**https://chrishwiggins.github.io/topic-evolution**
+**https://apma4903.github.io/topic-evolution**
 
 ⏰ *Note: May take 5-10 minutes for GitHub to build and deploy*
 

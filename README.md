@@ -78,7 +78,7 @@ This project analyzes academic research topics from a graduate-level course, tra
 ### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/chrishwiggins/topic-evolution.git
+git clone https://github.com/apma4903/topic-evolution.git
 cd topic-evolution
 
 # Start local server (Python 3)
@@ -92,7 +92,7 @@ npx http-server
 
 ### GitHub Pages
 The visualization is automatically deployed at:
-**https://chrishwiggins.github.io/topic-evolution**
+**https://apma4903.github.io/topic-evolution**
 
 ## 📈 Data Insights
 
@@ -117,7 +117,7 @@ MIT License - see LICENSE file for details
 ## 👨‍💻 Author
 
 **Chris H. Wiggins**
-- GitHub: [@chrishwiggins](https://github.com/chrishwiggins)
+- GitHub: [@apma4903](https://github.com/apma4903)
 - Website: [Your website URL]
 
 ## 🙏 Acknowledgments

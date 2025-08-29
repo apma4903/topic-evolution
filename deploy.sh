@@ -62,18 +62,13 @@ Highlights:
 Tech stack: Vanilla JS, Plotly.js, modern CSS
 Deployment: GitHub Pages ready" 2>/dev/null || echo "  ✅ No changes to commit"
 
-# Set up remote (user needs to create repo first)
+# Set up remote (repository already exists)
 echo ""
 echo "🔗 GitHub Repository Setup:"
-echo "  1. Go to https://github.com/chrishwiggins"
-echo "  2. Click 'New' to create a repository" 
-echo "  3. Name it 'topic-evolution'"
-echo "  4. Make it public"
-echo "  5. Do NOT initialize with README (we have one)"
-echo "  6. Click 'Create repository'"
+echo "  ✅ Repository already exists at: https://github.com/apma4903/topic-evolution"
 echo ""
 
-read -p "Have you created the GitHub repository? (y/N): " -n 1 -r
+read -p "Ready to push to apma4903/topic-evolution? (y/N): " -n 1 -r
 echo ""
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
@@ -83,7 +78,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     git remote remove origin 2>/dev/null || true
     
     # Add the remote
-    git remote add origin https://github.com/chrishwiggins/topic-evolution.git
+    git remote add origin https://github.com/apma4903/topic-evolution.git
     echo "  ✅ Remote origin added"
     
     # Push to GitHub
@@ -94,7 +89,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     
     echo ""
     echo "🌐 Enabling GitHub Pages..."
-    echo "  1. Go to https://github.com/chrishwiggins/topic-evolution"
+    echo "  1. Go to https://github.com/apma4903/topic-evolution"
     echo "  2. Click 'Settings' tab"
     echo "  3. Scroll to 'Pages' section"  
     echo "  4. Under 'Source', select 'Deploy from a branch'"
@@ -104,7 +99,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "🎉 Deployment Complete!"
     echo ""
     echo "📋 Your visualization will be available at:"
-    echo "  🔗 https://chrishwiggins.github.io/topic-evolution"
+    echo "  🔗 https://apma4903.github.io/topic-evolution"
     echo ""
     echo "⏰ Note: GitHub Pages may take 5-10 minutes to build and deploy."
     echo ""
@@ -117,6 +112,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo ""
     
 else
-    echo "❌ Please create the GitHub repository first, then run this script again."
+    echo "❌ Deployment cancelled. Run this script again when ready to deploy."
     exit 1
 fi
