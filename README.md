@@ -143,7 +143,7 @@ MIT License - see LICENSE file for details
 ## 🙏 Acknowledgments
 
 Data source: Academic course project topics (2016-2024)
-Visualization: Built with Plotly.js and modern web technologies
+Visualization: Built with Plotly.js and modern web technologies and GenAI code tools
 
 ---
 
