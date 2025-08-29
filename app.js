@@ -203,6 +203,102 @@ function createChartTraces(data) {
 }
 
 /**
+ * Creates dynamic annotations based on actual data peaks
+ * @param {Object} data - The topic evolution data
+ * @returns {Array} Array of annotation objects
+ */
+function createDynamicAnnotations(data) {
+    const annotations = [];
+    
+    // Find the value for each category at specific years
+    function getCategoryValue(categoryName, year) {
+        if (!data.categories[categoryName]) return 0;
+        const yearIndex = data.years.indexOf(year);
+        return yearIndex >= 0 ? data.categories[categoryName][yearIndex] : 0;
+    }
+    
+    // Machine Learning & AI peak in 2024
+    const mlValue2024 = getCategoryValue('Machine Learning & AI', 2024);
+    if (mlValue2024 > 0) {
+        annotations.push({
+            x: 2024,
+            y: mlValue2024,
+            text: "LLMs<br>Emerge",
+            showarrow: true,
+            arrowhead: 2,
+            arrowsize: 1,
+            arrowwidth: 2,
+            arrowcolor: '#FF6B6B',
+            ax: 0,
+            ay: -40,
+            font: { 
+                size: 11, 
+                color: '#1a202c',
+                family: '-apple-system, BlinkMacSystemFont, sans-serif'
+            },
+            bgcolor: "rgba(255,255,255,0.9)",
+            bordercolor: "#FF6B6B",
+            borderwidth: 1,
+            borderpad: 4
+        });
+    }
+    
+    // Social Sciences peak in 2019 (Census)
+    const socialValue2019 = getCategoryValue('Social Sciences & Demographics', 2019);
+    if (socialValue2019 > 0) {
+        annotations.push({
+            x: 2019,
+            y: socialValue2019,
+            text: "Census<br>Focus",
+            showarrow: true,
+            arrowhead: 2,
+            arrowsize: 1,
+            arrowwidth: 2,
+            arrowcolor: '#ed8936',
+            ax: 0,
+            ay: -40,
+            font: { 
+                size: 11, 
+                color: '#1a202c',
+                family: '-apple-system, BlinkMacSystemFont, sans-serif'
+            },
+            bgcolor: "rgba(255,255,255,0.9)",
+            bordercolor: "#ed8936",
+            borderwidth: 1,
+            borderpad: 4
+        });
+    }
+    
+    // COVID impact in 2020 - look for Pandemic category
+    const covidValue2020 = getCategoryValue('Pandemic & Public Health', 2020);
+    if (covidValue2020 > 0) {
+        annotations.push({
+            x: 2020,
+            y: covidValue2020,
+            text: "COVID-19<br>Impact",
+            showarrow: true,
+            arrowhead: 2,
+            arrowsize: 1,
+            arrowwidth: 2,
+            arrowcolor: '#48bb78',
+            ax: 0,
+            ay: -40,
+            font: { 
+                size: 11, 
+                color: '#1a202c',
+                family: '-apple-system, BlinkMacSystemFont, sans-serif'
+            },
+            bgcolor: "rgba(255,255,255,0.9)",
+            bordercolor: "#48bb78",
+            borderwidth: 1,
+            borderpad: 4
+        });
+    }
+    
+    return annotations;
+}
+
+/**
  * Creates the chart layout configuration
  * @param {Object} data - The topic evolution data  
  * @returns {Object} Plotly layout object
@@ -273,71 +369,7 @@ function createChartLayout(data) {
             t: 80, 
             b: 80 
         },
-        annotations: [
-            {
-                x: 2024,
-                y: 6,
-                text: "LLMs<br>Emerge",
-                showarrow: true,
-                arrowhead: 2,
-                arrowsize: 1,
-                arrowwidth: 2,
-                arrowcolor: '#FF6B6B',
-                ax: 0,
-                ay: -40,
-                font: { 
-                    size: 11, 
-                    color: '#1a202c',
-                    family: '-apple-system, BlinkMacSystemFont, sans-serif'
-                },
-                bgcolor: "rgba(255,255,255,0.9)",
-                bordercolor: "#FF6B6B",
-                borderwidth: 1,
-                borderpad: 4
-            },
-            {
-                x: 2019,
-                y: 7,
-                text: "Census<br>Focus",
-                showarrow: true,
-                arrowhead: 2,
-                arrowsize: 1,
-                arrowwidth: 2,
-                arrowcolor: '#ed8936',
-                ax: 0,
-                ay: -40,
-                font: { 
-                    size: 11, 
-                    color: '#1a202c',
-                    family: '-apple-system, BlinkMacSystemFont, sans-serif'
-                },
-                bgcolor: "rgba(255,255,255,0.9)",
-                bordercolor: "#ed8936",
-                borderwidth: 1,
-                borderpad: 4
-            },
-            {
-                x: 2020,
-                y: 4,
-                text: "COVID-19<br>Impact",
-                showarrow: true,
-                arrowhead: 2,
-                arrowsize: 1,
-                arrowwidth: 2,
-                arrowcolor: '#48bb78',
-                ax: 0,
-                ay: -40,
-                font: { 
-                    size: 11, 
-                    color: '#1a202c',
-                    family: '-apple-system, BlinkMacSystemFont, sans-serif'
-                },
-                bgcolor: "rgba(255,255,255,0.9)",
-                bordercolor: "#48bb78",
-                borderwidth: 1,
-                borderpad: 4
-            }
-        ]
+        annotations: createDynamicAnnotations(data)
     };
 }
 
