@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Academic Topic Evolution Analysis",
-    "description": "Analysis of 172 academic project topics across 9 years (2016-2024)",
-    "total_topics": 172,
+    "description": "Analysis of 189 academic project topics across 9 years (2016-2024)",
+    "total_topics": 189,
     "total_years": 9,
     "classification_method": "Maximum overlap keyword matching",
     "categories_count": 19
@@ -94,7 +94,7 @@
       4,
       1,
       2,
-      0
+      4
     ],
     "Machine Learning & AI": [
       3,
@@ -105,7 +105,7 @@
       4,
       6,
       3,
-      0
+      7
     ],
     "Mathematical Modeling & PDEs": [
       2,
@@ -116,7 +116,7 @@
       0,
       2,
       1,
-      0
+      1
     ],
     "Medical & Health Applications": [
       3,
@@ -127,7 +127,7 @@
       0,
       1,
       1,
-      0
+      2
     ],
     "Music & Creative Applications": [
       0,
@@ -149,7 +149,7 @@
       1,
       0,
       0,
-      0
+      1
     ],
     "Other": [
       2,
@@ -226,7 +226,7 @@
       0,
       0,
       0,
-      0
+      2
     ]
   }
 }
