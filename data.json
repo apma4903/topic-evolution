@@ -1,13 +1,16 @@
 {
   "metadata": {
     "title": "Academic Topic Evolution Analysis",
-    "description": "Analysis of 189 academic project topics across 9 years (2016-2024)",
-    "total_topics": 189,
-    "total_years": 9,
+    "description": "Analysis of 248 academic project topics across 12 years (2013-2024)",
+    "total_topics": 248,
+    "total_years": 12,
     "classification_method": "Maximum overlap keyword matching",
     "categories_count": 23
   },
   "years": [
+    2013,
+    2014,
+    2015,
     2016,
     2017,
     2018,
@@ -20,6 +23,9 @@
   ],
   "categories": {
     "Biology & Life Sciences": [
+      0,
+      0,
+      0,
       1,
       0,
       0,
@@ -32,6 +38,9 @@
     ],
     "Climate Science & Environment": [
       0,
+      1,
+      0,
+      0,
       2,
       2,
       1,
@@ -42,6 +51,9 @@
       1
     ],
     "Coding Theory & Cryptography": [
+      0,
+      0,
+      0,
       1,
       0,
       0,
@@ -55,6 +67,9 @@
     "Computer Vision & Image Processing": [
       1,
       0,
+      1,
+      1,
+      0,
       0,
       2,
       0,
@@ -64,6 +79,9 @@
       0
     ],
     "Control Theory & Systems": [
+      0,
+      0,
+      0,
       0,
       1,
       0,
@@ -75,6 +93,9 @@
       0
     ],
     "Cryptocurrency & Blockchain": [
+      0,
+      0,
+      1,
       1,
       1,
       0,
@@ -86,6 +107,9 @@
       0
     ],
     "Economics & Game Theory": [
+      0,
+      0,
+      0,
       0,
       1,
       1,
@@ -104,10 +128,16 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
       1,
       0
     ],
     "Financial Modeling & Trading": [
+      5,
+      1,
+      3,
       1,
       3,
       5,
@@ -119,6 +149,9 @@
       3
     ],
     "Machine Learning & AI": [
+      1,
+      2,
+      5,
       4,
       4,
       8,
@@ -130,6 +163,9 @@
       8
     ],
     "Mathematical Modeling & PDEs": [
+      0,
+      1,
+      0,
       2,
       0,
       1,
@@ -144,6 +180,9 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
       1,
       0,
       0,
@@ -152,6 +191,9 @@
       0
     ],
     "Medical & Health Applications": [
+      0,
+      0,
+      0,
       3,
       0,
       0,
@@ -168,12 +210,18 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
       2,
       0,
       0,
       0
     ],
     "Operations Research & Optimization": [
+      1,
+      0,
+      0,
       1,
       0,
       1,
@@ -185,6 +233,9 @@
       1
     ],
     "Other": [
+      8,
+      8,
+      9,
       0,
       0,
       0,
@@ -197,6 +248,9 @@
     ],
     "Pandemic & Public Health": [
       0,
+      1,
+      1,
+      0,
       0,
       0,
       0,
@@ -207,6 +261,9 @@
       0
     ],
     "Quantum Computing & Physics": [
+      1,
+      1,
+      0,
       1,
       0,
       2,
@@ -219,6 +276,9 @@
     ],
     "Recommender Systems & Information Retrieval": [
       0,
+      0,
+      0,
+      0,
       2,
       1,
       0,
@@ -229,6 +289,9 @@
       0
     ],
     "Social Sciences & Demographics": [
+      0,
+      0,
+      0,
       0,
       2,
       0,
@@ -241,6 +304,9 @@
     ],
     "Sports Analytics & Gaming": [
       2,
+      2,
+      0,
+      2,
       1,
       0,
       4,
@@ -251,6 +317,9 @@
       1
     ],
     "Statistical Modeling & Markov Processes": [
+      0,
+      1,
+      1,
       1,
       2,
       1,
@@ -262,6 +331,9 @@
       0
     ],
     "Urban Planning & Transportation": [
+      1,
+      0,
+      0,
       1,
       0,
       0,
