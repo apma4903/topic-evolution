@@ -5,7 +5,7 @@
     "total_topics": 248,
     "total_years": 12,
     "classification_method": "Maximum overlap keyword matching",
-    "categories_count": 19
+    "categories_count": 18
   },
   "years": [
     2013,
@@ -50,31 +50,17 @@
       2,
       1
     ],
-    "Coding Theory & Cryptography": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
     "Computer Science & Data Analytics": [
       2,
       1,
       1,
-      0,
+      1,
       2,
       1,
       0,
       1,
       0,
-      1,
+      2,
       2,
       0
     ],
@@ -292,22 +278,21 @@
   "markers": {
     "Applied Systems & Transportation": "circle",
     "Climate Science & Environment": "square",
-    "Coding Theory & Cryptography": "diamond",
-    "Computer Science & Data Analytics": "cross",
-    "Computer Vision & Image Processing": "x",
-    "Control Theory & Systems": "triangle-up",
-    "Cryptocurrency & Blockchain": "triangle-down",
-    "Economics & Game Theory": "pentagon",
-    "Financial Modeling & Trading": "hexagon",
-    "Machine Learning & AI": "star",
-    "Mathematical Modeling & PDEs": "circle-open",
-    "Medical & Health Applications": "square-open",
-    "Operations Research & Optimization": "diamond-open",
-    "Other": "cross-open",
-    "Pandemic & Public Health": "x-open",
-    "Quantum Computing & Physics": "triangle-up-open",
-    "Social Sciences & Demographics": "triangle-down-open",
-    "Sports Analytics & Gaming": "pentagon-open",
-    "Statistical Modeling & Markov Processes": "hexagon-open"
+    "Computer Science & Data Analytics": "diamond",
+    "Computer Vision & Image Processing": "cross",
+    "Control Theory & Systems": "x",
+    "Cryptocurrency & Blockchain": "triangle-up",
+    "Economics & Game Theory": "triangle-down",
+    "Financial Modeling & Trading": "pentagon",
+    "Machine Learning & AI": "hexagon",
+    "Mathematical Modeling & PDEs": "star",
+    "Medical & Health Applications": "circle-open",
+    "Operations Research & Optimization": "square-open",
+    "Other": "diamond-open",
+    "Pandemic & Public Health": "cross-open",
+    "Quantum Computing & Physics": "x-open",
+    "Social Sciences & Demographics": "triangle-up-open",
+    "Sports Analytics & Gaming": "triangle-down-open",
+    "Statistical Modeling & Markov Processes": "pentagon-open"
   }
 }
