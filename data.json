@@ -5,7 +5,7 @@
     "total_topics": 248,
     "total_years": 12,
     "classification_method": "Maximum overlap keyword matching",
-    "categories_count": 22
+    "categories_count": 19
   },
   "years": [
     2013,
@@ -22,19 +22,19 @@
     2024
   ],
   "categories": {
-    "Biology & Life Sciences": [
-      0,
-      0,
-      0,
+    "Applied Systems & Transportation": [
       1,
       0,
       0,
+      2,
       0,
       0,
-      0,
+      1,
+      1,
+      2,
       0,
       3,
-      0
+      2
     ],
     "Climate Science & Environment": [
       0,
@@ -59,6 +59,20 @@
       0,
       0,
       0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Computer Science & Data Analytics": [
+      2,
+      1,
+      1,
+      0,
+      2,
+      1,
+      0,
+      1,
       0,
       1,
       2,
@@ -95,7 +109,7 @@
     "Cryptocurrency & Blockchain": [
       0,
       0,
-      1,
+      0,
       1,
       1,
       0,
@@ -103,20 +117,6 @@
       0,
       1,
       2,
-      0,
-      0
-    ],
-    "Data Science & Analytics": [
-      2,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
       0,
       0
     ],
@@ -142,7 +142,7 @@
       3,
       5,
       3,
-      4,
+      3,
       4,
       1,
       2,
@@ -189,20 +189,6 @@
       2,
       1,
       2
-    ],
-    "Music & Creative Applications": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      2,
-      0,
-      0,
-      0
     ],
     "Operations Research & Optimization": [
       2,
@@ -260,20 +246,6 @@
       0,
       0
     ],
-    "Recommender Systems & Information Retrieval": [
-      0,
-      0,
-      0,
-      0,
-      2,
-      1,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
     "Social Sciences & Demographics": [
       0,
       0,
@@ -315,44 +287,27 @@
       1,
       0,
       0
-    ],
-    "Urban Planning & Transportation": [
-      1,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2
     ]
   },
   "markers": {
-    "Biology & Life Sciences": "circle",
+    "Applied Systems & Transportation": "circle",
     "Climate Science & Environment": "square",
     "Coding Theory & Cryptography": "diamond",
-    "Computer Vision & Image Processing": "cross",
-    "Control Theory & Systems": "x",
-    "Cryptocurrency & Blockchain": "triangle-up",
-    "Data Science & Analytics": "triangle-down",
+    "Computer Science & Data Analytics": "cross",
+    "Computer Vision & Image Processing": "x",
+    "Control Theory & Systems": "triangle-up",
+    "Cryptocurrency & Blockchain": "triangle-down",
     "Economics & Game Theory": "pentagon",
     "Financial Modeling & Trading": "hexagon",
     "Machine Learning & AI": "star",
     "Mathematical Modeling & PDEs": "circle-open",
     "Medical & Health Applications": "square-open",
-    "Music & Creative Applications": "diamond-open",
-    "Operations Research & Optimization": "cross-open",
-    "Other": "x-open",
-    "Pandemic & Public Health": "triangle-up-open",
-    "Quantum Computing & Physics": "triangle-down-open",
-    "Recommender Systems & Information Retrieval": "pentagon-open",
-    "Social Sciences & Demographics": "hexagon-open",
-    "Sports Analytics & Gaming": "star-open",
-    "Statistical Modeling & Markov Processes": "circle",
-    "Urban Planning & Transportation": "square"
+    "Operations Research & Optimization": "diamond-open",
+    "Other": "cross-open",
+    "Pandemic & Public Health": "x-open",
+    "Quantum Computing & Physics": "triangle-up-open",
+    "Social Sciences & Demographics": "triangle-down-open",
+    "Sports Analytics & Gaming": "pentagon-open",
+    "Statistical Modeling & Markov Processes": "hexagon-open"
   }
 }
