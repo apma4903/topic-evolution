@@ -1,11 +1,11 @@
 {
   "metadata": {
     "title": "Academic Topic Evolution Analysis",
-    "description": "Analysis of 189 academic project topics across 9 years (2016-2024)",
-    "total_topics": 189,
+    "description": "Analysis of 172 academic project topics across 9 years (2016-2024)",
+    "total_topics": 172,
     "total_years": 9,
     "classification_method": "Maximum overlap keyword matching",
-    "categories_count": 8
+    "categories_count": 19
   },
   "years": [
     2016,
@@ -19,93 +19,214 @@
     2024
   ],
   "categories": {
-    "Machine Learning/AI": [
-      4,
-      5,
-      10,
-      4,
-      4,
-      4,
-      8,
-      3,
-      6
-    ],
-    "Finance/Economics": [
-      2,
-      5,
-      5,
-      4,
-      3,
-      4,
-      3,
-      2,
-      3
-    ],
-    "Mathematics/Theory": [
-      3,
-      2,
+    "Climate Science & Environment": [
+      0,
       2,
       2,
       1,
-      4,
-      3,
-      1,
-      1
-    ],
-    "Social/Urban": [
       2,
+      2,
+      1,
+      2,
+      0
+    ],
+    "Coding Theory & Cryptography": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0
+    ],
+    "Computer Vision & Image Processing": [
+      1,
+      0,
+      0,
+      2,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Control Theory & Systems": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Cryptocurrency & Blockchain": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0
+    ],
+    "Economics & Game Theory": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "Financial Modeling & Trading": [
+      1,
+      3,
+      5,
+      3,
+      4,
+      4,
+      1,
+      2,
+      0
+    ],
+    "Machine Learning & AI": [
+      3,
+      3,
+      6,
+      1,
+      4,
+      4,
+      6,
+      3,
+      0
+    ],
+    "Mathematical Modeling & PDEs": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0
+    ],
+    "Medical & Health Applications": [
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "Music & Creative Applications": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "Operations Research & Optimization": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Other": [
+      2,
+      3,
+      6,
+      4,
+      1,
+      2,
+      2,
+      7,
+      5
+    ],
+    "Pandemic & Public Health": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Quantum Computing & Physics": [
+      1,
+      0,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Social Sciences & Demographics": [
+      0,
       2,
       0,
       7,
-      1,
-      2,
-      2,
       0,
-      3
-    ],
-    "Sports/Gaming": [
-      2,
+      1,
       1,
       0,
-      4,
-      2,
-      2,
-      1,
-      2,
-      3
-    ],
-    "Climate/Weather": [
-      0,
-      2,
-      2,
-      1,
-      2,
-      2,
-      2,
-      5,
       0
     ],
-    "Health/Medicine": [
-      4,
+    "Sports Analytics & Gaming": [
+      2,
       1,
-      1,
-      1,
-      4,
       0,
+      4,
+      2,
       1,
       2,
-      2
+      0,
+      0
     ],
-    "Physics/Quantum": [
+    "Statistical Modeling & Markov Processes": [
       1,
-      0,
       2,
       0,
-      1,
+      0,
       0,
       1,
       1,
-      3
+      0,
+      0
+    ],
+    "Urban Planning & Transportation": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }
