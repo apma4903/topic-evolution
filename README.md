@@ -1,10 +1,6 @@
 # Academic Topic Evolution Analysis
 
-An interactive visualization showing the evolution of 189 academic topics across 9 years (2016-2024), revealing trends in machine learning, finance, climate science, and other research areas.
-
 ## 🎯 Overview
-
-This project analyzes academic research topics from a graduate-level course, tracking how different fields have evolved over time. The visualization reveals fascinating trends including:
 
 - The rise of Machine Learning & AI (48 total topics)
 - Steady growth in Finance & Economics (31 total topics)  
@@ -103,28 +99,9 @@ The analysis reveals several key trends in academic research:
 3. **Emerging Priorities**: Climate research acceleration reflecting global urgency
 4. **Methodological Evolution**: From simple statistics to advanced neural architectures
 
-## 🎨 Design Principles
-
-- **Clarity**: Clean, uncluttered interface focusing on data insights
-- **Accessibility**: Proper contrast, focus states, and reduced motion support
-- **Responsiveness**: Works seamlessly across desktop, tablet, and mobile
-- **Performance**: Optimized loading with proper error handling
-
-## 📝 License
-
-MIT License - see LICENSE file for details
-
-## 👨‍💻 Author
-
-**Chris H. Wiggins**
-- GitHub: [@apma4903](https://github.com/apma4903)
-- Website: [Your website URL]
-
-## 🙏 Acknowledgments
-
 Data source: Academic course project topics (2016-2024)
 Visualization: Built with Plotly.js and modern web technologies
 
----
+More info
 
-*This project demonstrates the evolution of academic interests over time, revealing how research priorities shift in response to technological advances and global events.*
+https://www.columbia.edu/~chw2/Courses/APMA4903/4903-instructions.pdf
