@@ -31,14 +31,10 @@ const AppState = {
  */
 const CHART_CONFIG = {
     colors: [
-        '#FF6B6B', // Machine Learning/AI - Warm Red
-        '#4ECDC4', // Finance/Economics - Teal  
-        '#45B7D1', // Mathematics/Theory - Blue
-        '#96CEB4', // Social/Urban - Green
-        '#FFEAA7', // Sports/Gaming - Yellow
-        '#DDA0DD', // Climate/Weather - Purple
-        '#98D8C8', // Health/Medicine - Mint
-        '#F7DC6F'  // Physics/Quantum - Gold
+        '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', 
+        '#DDA0DD', '#98D8C8', '#F7DC6F', '#FF9FF3', '#54A0FF',
+        '#5F27CD', '#00D2D3', '#FF9F43', '#10AC84', '#EE5A24',
+        '#0AD3C4', '#FFC312', '#C4E538', '#F79F1F', '#A3CB38'
     ],
     layout: {
         responsive: true,
@@ -170,6 +166,7 @@ function createChartTraces(data) {
     
     categoryTotals.forEach(({ name, values }) => {
         const color = CHART_CONFIG.colors[colorIndex % CHART_CONFIG.colors.length];
+        const symbol = data.markers && data.markers[name] ? data.markers[name] : 'circle';
         
         traces.push({
             x: data.years,
@@ -183,9 +180,9 @@ function createChartTraces(data) {
                 shape: 'linear'
             },
             marker: {
-                size: 8,
+                size: 10,
                 color: color,
-                symbol: 'circle',
+                symbol: symbol,
                 line: {
                     width: 2,
                     color: '#ffffff'
